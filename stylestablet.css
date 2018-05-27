@@ -1,0 +1,245 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+body{
+    font-family: Montserrat;
+}
+.container{
+    width: 768px;
+    height: 1437px;
+    margin: 0 auto;
+    font-family: Roboto, Montserrat, sans-serif;
+    font-size: 14px;
+}
+.main-header{
+    width: 100%;
+    height: 31.4%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.click{
+    list-style: none;
+    display: flex;
+   justify-content: space-between;
+}
+.log-in{
+    font-weight: 700;
+    font-size: 14px;
+  position: absolute;
+    width: 89px;
+    height: 35px;
+    top:5%;
+    left: 20%;
+    margin: 0;
+    padding: 0;
+   }
+   .log-in::first-letter{
+       text-transform: uppercase;
+   }
+.log-in:hover{
+
+  border-radius: 15px;
+  border-color: rgb(255, 255, 255);
+}
+.sign-up{
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    width: 89px;
+    height: 35px;
+    top:5%;
+    right: 20%;
+    
+ }
+ .sign-up::first-letter{
+    text-transform: uppercase;
+}
+.sign-up:hover{
+    border: 1 px solid;
+   border-color: aliceblue;
+   cursor: pointer;
+    border-radius: 15px; 
+   
+}
+    
+    .one{
+        font-weight: 700;
+        font-size: 20px;
+        position: absolute;
+        top:33%;
+        left: 25%;
+        margin: 0 auto;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .two{
+        font-weight: 700;
+        font-size: 30px;
+        position: absolute;
+        top:42%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .three{
+        font-family: Roboto;
+        font-size: 18px;
+font-weight: 300;
+        position: absolute;
+        top:57%;
+        left: 5%;
+        text-align: center;
+            }
+            .three::first-letter{
+                text-transform: uppercase;
+            }
+    .find{
+        position: absolute;
+        bottom: 20%;
+        left: 5%;
+        border-radius: 15px; 
+        border-color: rgb(255, 78, 80);
+        background-color: rgb(255, 78, 80);
+        color: rgb(255, 255, 255);
+        width: 280px;
+        height: 40px;
+        cursor: pointer;
+         }
+    .find::first-letter{
+        text-transform: uppercase;
+    }
+    .find:hover{
+        text-transform: uppercase;
+    }
+    .title{
+font-family: Montserrat;
+color:  rgb(51, 51, 51);
+font-size: 21.98px;
+font-weight: 700;
+text-align: center;
+    }
+    .title::first-letter{
+        text-transform: uppercase;
+    }
+   
+.name{
+    font-family: Montserrat;
+color:  rgb(51, 51, 51);
+font-size: 14px;
+font-weight: 700;
+text-align: center;
+}
+.about::first-letter{
+    text-transform: uppercase;
+}
+.about{
+    font-family: Roboto;
+color:  rgb(102, 102, 102);
+font-size: 14px;
+font-weight: 300;
+text-align: center;
+}
+.partner-one{
+    position: relative;
+}
+
+.bradley{
+    margin: 0 auto;
+}
+.ellipse-one{
+ position: absolute;
+left:58%;
+top:46%;
+   width: 31px;
+   height: 31px; 
+}
+.tv{
+position: absolute;
+margin: 0 auto;
+left:60%;
+top:49%;
+
+}
+.partner-two{
+    position: relative;}
+.lucas{
+    margin: 0 auto;
+}
+.ellipse-two{
+ position: absolute;
+left:57%;
+top:46%;
+   width: 31px;
+   height: 31px; 
+}
+.flask{
+position: absolute;
+margin: 0 auto;
+left:60%;
+top:49%;
+
+}
+.partner-three{
+    position: relative;}
+.heather{
+    margin: 0 auto;
+}
+.ellipse-three{
+ position: absolute;
+left:57%;
+top:46%;
+   width: 31px;
+   height: 31px; 
+}
+.cup{
+position: absolute;
+margin: 0 auto;
+left:59%;
+top:48%;
+
+}
+.partner-four{
+    position: relative;}
+.hanter{
+    margin: 0 auto;
+}
+.ellipse-four{
+ position: absolute;
+left:57%;
+top:46%;
+   width: 31px;
+   height: 31px; 
+}
+.letter{
+position: absolute;
+margin: 0 auto;
+left:59%;
+top:48%;
+
+}
+.other{
+    font-family: Montserrat;
+color:  rgb(255, 78, 80);
+font-size: 14px;
+font-weight: 700;
+text-align: center;
+width: 280px;
+height: 40px;
+margin: 0 auto;
+cursor: pointer;
+border-radius: 15px; 
+border-color: rgb(255, 78, 80);
+background-color: rgb(255, 255, 255);
+}
+.other::first-letter{
+    text-transform: uppercase;
+}
